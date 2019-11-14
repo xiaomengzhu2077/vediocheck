@@ -1,4 +1,3 @@
 import subprocess
-#转换UI文件为PY文件
-#subprocess.call(r"Y:\Anaconda3\Scripts\pyuic5.exe UI.ui -o UI.py")
-#
+
+subprocess.call(r"tesseract 123.jpg a -l eng")
